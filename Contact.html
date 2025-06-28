@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/RM Studio 2.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body class="font-serif">
+  <div
+    class="flex flex-col justify-center items-center  mb-5  m-auto bg-[url('/background.jpg')] bg-cover bg-center sm:bg-top md:bg-center w-full h-150 ">
+    <h1 class="p-5 text-violet-600 mb-10 text-6xl font-extrabold rounded-4xl">Contact</h1>
+    <p class="font-bold text-lg md:text-2xl ">I'm always open to discussing new opportunities, collaborations,
+      or just a friendly tech chat. Let's connect!</p>
+    <div class="flex justify-center items-center mb-70">
+      <img class="w-10 "
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48ZyBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjMiPjxwYXRoIGZpbGw9IiM4ZmJmZmEiIGQ9Ik00MiAyMWMwIDEyLjkxOS0xMy4zNSAyMi4xMjgtMTcuMDU2IDI0LjQzNmExLjc3IDEuNzcgMCAwIDEtMS44ODggMEMxOS4zNTEgNDMuMTI4IDYgMzMuOTE5IDYgMjFjMC05Ljk0MSA4LjA1OS0xOCAxOC0xOHMxOCA4LjA1OSAxOCAxOCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0zMiAyMWE4IDggMCAxIDEtMTYgMGE4IDggMCAwIDEgMTYgMCIvPjxwYXRoIHN0cm9rZT0iIzI4NTljNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNDIgMjFjMCAxMi45MTktMTMuMzUgMjIuMTI4LTE3LjA1NiAyNC40MzZhMS43NyAxLjc3IDAgMCAxLTEuODg4IDBDMTkuMzUxIDQzLjEyOCA2IDMzLjkxOSA2IDIxYzAtOS45NDEgOC4wNTktMTggMTgtMThzMTggOC4wNTkgMTggMTgiLz48cGF0aCBzdHJva2U9IiMyODU5YzUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTMyIDIxYTggOCAwIDEgMS0xNiAwYTggOCAwIDAgMSAxNiAwIi8+PC9nPjwvc3ZnPg=="
+        alt="">
+      <p class="font-bold text-lg md:text-2xl">
+
+        Bengalore & Hyderabad.
+      </p>
+
+    </div>
+  </div>
+  <div class=" grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 mt-20 mb-20 w-[96%] m-auto ">
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="public/mail.png" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Email</h1>
+      <p class="text-xl ">maheshmetre2005@gmail.com</p>
+      <a href="mailto:maheshmetre2005@gmail.com">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Email Me
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="public/phone-call.png" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Contact</h1>
+      <p class="text-xl ">+91 6304285267</p>
+      <button onclick="togglePopup()"
+        class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 mt-2 transition-all">
+        Call Me
+      </button>
+
+      <!-- Popup Modal -->
+      <div id="popupModal" class="fixed inset-0 hidden">
+  <div class="flex items-center justify-center h-full">
+    <div class="bg-white p-6 rounded-xl shadow-lg w-80 mx-auto">
+      <h2 class="text-xl text-black font-bold mb-2 text-center">+91 6304285267</h2>
+      <p class="text-center text-green-600 font-semibold mb-4">WhatsApp or Call me</p>
+      <button onclick="togglePopup()" class="mt-2 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
+      <script>
+        function togglePopup() {
+          const modal = document.getElementById('popupModal');
+          modal.classList.toggle('hidden');
+          
+        }
+      </script>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="https://img.icons8.com/?size=100&id=ngc6JsBomclm&format=png&color=000000" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Fiverr</h1>
+      <p class="text-xl ">maheshmetre2005@gmail.com</p>
+      <a href="mailto:maheshmetre2005@gmail.com">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Contact
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="https://img.icons8.com/?size=100&id=HKdmFbFm7xQV&format=png&color=000000" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Up Work</h1>
+      <p class="text-xl ">maheshmetre2005@gmail.com</p>
+      <a href="mailto:maheshmetre2005@gmail.com">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Contact
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="https://img.icons8.com/?size=100&id=M725CLW4L7wE&format=png&color=000000" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Discord</h1>
+      <p class="text-xl ">mahesh_0123</p>
+      <a href="https://discord.com/channels/@me">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Chat
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="https://img.icons8.com/?size=100&id=4Z2nCrz5iPY2&format=png&color=000000" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Git hub</h1>
+      <p class="text-xl ">mahesh-metre</p>
+      <a href="https://github.com/mahesh-metre">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Code
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Linkedin</h1>
+      <p class="text-xl ">m-mahesh060225</p>
+      <a href="https://www.linkedin.com/in/m-mahesh060225/">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Profile
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-col justify-center items-center p-8 border-3 rounded-3xl hover:bg-gray-700 hover:text-white">
+      <img class="w-18" src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="">
+      <h1 class="text-2xl font-bold text-blue-900">Instagram</h1>
+      <p class="text-xl ">m.mahesh_25</p>
+      <a href="https://www.instagram.com/m.mahesh_25/">
+        <button type="button"
+          class="bg-blue-600 text-white mt-2 px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+          Follow
+        </button>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

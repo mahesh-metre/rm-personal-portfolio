@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public/RM Studio 2.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+
+<body class="font-serif">
+  <header class="bg-slate-100  md:sticky top-0 shadow-5xl p-2.5 z-50 ">
+    <nav class="flex justify-between items-center w-[92%] mx-auto ">
+      <div class=" flex items-center gap-2 z-10">
+        <img class="w-18 rounded" src="./public/RM Studio 2.jpg" alt="logo">
+        <h1 class="text-2xl font-bold">RM studio</h1>
+      </div>
+      <div id="nav-link"
+        class=" bg-slate-100 duration-500 md:static font-[Inter] font-extrabold absolute md:min-h-fit md:w-auto  w-full top-[-100%] left-0  flex items-center justify-center p-5">
+        <ul class="flex w-full text-center md:flex-row flex-col md:items-center md:gap-4  gap-4">
+          <li>
+            <a href="/index.html"
+              class="text-gray-700 w-full block text-lg hover:bg-violet-600 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 rounded p-2">Home</a>
+          </li>
+          <li>
+            <a href="/About.html"
+              class="text-gray-700 w-full block text-lg hover:bg-violet-600 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 rounded p-2">About
+              Me</a>
+          </li>
+          <li>
+            <a href="/Project.html"
+              class="text-gray-700 w-full block text-lg hover:bg-violet-600 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 rounded p-2">Projects</a>
+          </li>
+          <li>
+            <a href="/Skill.html"
+              class="text-gray-700 w-full block text-lg hover:bg-violet-600 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 rounded p-2">Skills</a>
+          </li>
+          <li>
+            <a href="/Contact.html"
+              class="text-gray-700 w-full block text-lg hover:bg-violet-600 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 rounded p-2">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class=" md:hidden flex items-center z-10">
+        <button id="menu-toggle">
+          <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 cursor-pointer" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <div class="font-[poppins] md:flex justify-center mx-auto w-[90%] md:gap-2 mt-4 pt-12">
+    <div class="md:ml-10 flex-1/3">
+      <h1 class="text-3xl font-bold md:font-extrabold md:text-6xl mt-2">Building Interfaces. ShapingExperiences.</h1>
+      <p class=" text-gray-800 font-bold md:text-lg mt-4">
+        Hey, I'm Mahesh, a passionate frontend developer based in India. I specialize in crafting responsive,
+        user-friendly websites with clean code and thoughtful design.
+      </p>
+      <button class="bg-violet-600 text-white px-6 py-2 rounded shadow-md hover:shadow-xl mt-4 transition">
+        <a href="#">Contact</a>
+      </button>
+    </div>
+    <div class="flex justify-center items-center flex-1/2 h-[520px]">
+      <img class=" mt-1px md:mt-[-6%] md:mr-[-10%] max-w-[600px] size-full object-cover" src="./public/Desktop.png"
+        alt="">
+    </div>
+  </div>
+  <div class="pro">
+    <div class="flex flex-col items-center justify-center mt-[-30px] md:mt-0 text-blue-900 font-serif">
+      <h1 class="md:text-6xl text-3xl">MY FEW PROJECTS</h1>
+      <p class="md:text-2xl">Designed seamless interfaces,Built beautiful websites,& Composed</p>
+      <p class="md:text-2xl">inspiring animations.</p>
+    </div>
+
+    <div class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10 w-[90%] mx-auto">
+      <div class="bg-white p-4 shadow-md border-4 border-sky-200 rounded-lg hover:scale-105 duration-200 hover:shadow-xl/20 shadow-blue-300 "
+        >
+        <img src="./public/pro1.png" alt="Project 1"
+          class="w-full h-120 md:h-80 lg:h-100 object-cover rounded-t-lg">
+        <h2 class="text-xl font-bold mt-2">College web</h2>
+        <p class="text-gray-600">A simply college website for college information</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md border-4 border-sky-200 hover:scale-105 duration-200 hover:shadow-xl/20 shadow-blue-300 "
+        >
+        <img src="./public/qrappp.png" alt="Project 2"
+          class="w-full h-120 md:h-80 lg:h-100 object-cover rounded-t-lg">
+        <h2 class="text-xl font-bold mt-2">QR App</h2>
+        <p class="text-gray-600">A QR app which perfome both scanning and creating the QR code.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md border-4 border-sky-200 hover:scale-105 duration-200 hover:shadow-xl/20 shadow-blue-300 "
+       >
+        <img src="./public/form.png" alt="Project 3"
+          class="w-full h-120 md:h-80 lg:h-100 object-cover rounded-t-lg">
+        <h2 class="text-xl font-bold mt-2">Modern Form</h2>
+        <p class="text-gray-600">It is a modern form which take and save basic information of a person.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md border-4 border-sky-200 hover:scale-105 duration-200 hover:shadow-xl/20 shadow-blue-300"
+        >
+        <img src="./public/Project3.png" alt="Project 3"
+          class="w-full h-120 md:h-80 lg:h-100 object-cover rounded-t-lg">
+        <h2 class="text-xl font-bold mt-2">Project 4</h2>
+        <p class="text-gray-600">Description of Project 4.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md border-4 border-sky-200 hover:scale-105 duration-200 hover:shadow-xl/20 shadow-blue-300"
+        >
+        <img src="./public/Project3.png" alt="Project 3"
+          class="w-full h-120 md:h-80 lg:h-100 object-cover rounded-t-lg">
+        <h2 class="text-xl font-bold mt-2">Project 4</h2>
+        <p class="text-gray-600">Description of Project 4.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md border-4 border-sky-200 hover:scale-105 duration-200 hover:shadow-xl/20 shadow-blue-300"
+        >
+        <img src="./public/Project3.png" alt="Project 3"
+          class="w-full h-120 md:h-80 lg:h-100 object-cover rounded-t-lg">
+        <h2 class="text-xl font-bold mt-2">Project 4</h2>
+        <p class="text-gray-600">Description of Project 4.</p>
+      </div>
+    </div>
+    <div class="md:grid-cols-2 flex items-center justify-center rounded mt-20 mb-5">
+      <button
+        class="items-center justify-center rounded p-3 pl-10 pr-10 bg-sky-400 text-white text-2xl font-bold shadow-2xl hover:scale-105 duration-200">More
+        Projects</button>
+    </div>
+  </div>
+  <div class="md:flex  w-[90%] mx-auto mt-20 md:gap-20">
+    <div class="flex-[4] flex flex-col items-center justify-center md:items-start md:mt-8 text-blue-900 font-serif">
+      <img class="w-60 h-60 items-center  " src="public/code.avif" alt="">
+      <h1 class="md:text-4xl text-3xl mt-2">2 YEARS OF EXPERIENCE </h1>
+      <p class="md:text-xl mt-4">I can help you take your business online with a strong, modern web presence — assisting
+        you throughout the entire development process. I build user-focused, high-performing websites and bring value
+        through my frontend expertise, delivering seamless digital experiences.</p>
+    </div>
+    <div class="items-center justify-center pt-5 grid  sm:grid-cols-2 grid-cols-1 gap-7 flex-[5]">
+      <div class="bg-blue-700 text-white p-8 mt-4 rounded-xl h-70 hover:bg-black">
+        <img class=" w-15 "
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48ZyBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjMiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0zLjUzOSAzOS43NDNjLjIwOCAyLjU1NSAyLjE2MyA0LjUxIDQuNzE4IDQuNzE4QzExLjQ4NSA0NC43MjMgMTYuNjM2IDQ1IDI0IDQ1czEyLjUxNS0uMjc3IDE1Ljc0My0uNTM5YzIuNTU1LS4yMDggNC41MS0yLjE2MyA0LjcxOC00LjcxOEM0NC43MjMgMzYuNTE1IDQ1IDMxLjM2NCA0NSAyNHMtLjI3Ny0xMi41MTUtLjUzOS0xNS43NDNjLS4yMDgtMi41NTUtMi4xNjMtNC41MS00LjcxOC00LjcxOEMzNi41MTUgMy4yNzcgMzEuMzY0IDMgMjQgM3MtMTIuNTE1LjI3Ny0xNS43NDMuNTM5Yy0yLjU1NS4yMDgtNC41MSAyLjE2My00LjcxOCA0LjcxOEMzLjI3NyAxMS40ODUgMyAxNi42MzYgMyAyNHMuMjc3IDEyLjUxNS41MzkgMTUuNzQzIi8+PHBhdGggZmlsbD0iIzhmYmZmYSIgZD0iTTQ0Ljc4NCAxMy41SDMuMjE3Yy4wOTUtMi4xMTcuMjEtMy44NTcuMzIyLTUuMjQzYy4yMDgtMi41NTUgMi4xNjMtNC41MSA0LjcxOS00LjcxOEMxMS40ODYgMy4yNzcgMTYuNjM3IDMgMjQgM3MxMi41MTUuMjc3IDE1Ljc0My41MzljMi41NTYuMjA4IDQuNTEgMi4xNjMgNC43MTkgNC43MThjLjExMiAxLjM4Ni4yMjcgMy4xMjYuMzIyIDUuMjQzIi8+PHBhdGggc3Ryb2tlPSIjMjg1OWM1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMy41MzkgMzkuNzQzYy4yMDggMi41NTUgMi4xNjMgNC41MSA0LjcxOCA0LjcxOEMxMS40ODUgNDQuNzIzIDE2LjYzNiA0NSAyNCA0NXMxMi41MTUtLjI3NyAxNS43NDMtLjUzOWMyLjU1NS0uMjA4IDQuNTEtMi4xNjMgNC43MTgtNC43MThDNDQuNzIzIDM2LjUxNSA0NSAzMS4zNjQgNDUgMjRzLS4yNzctMTIuNTE1LS41MzktMTUuNzQzYy0uMjA4LTIuNTU1LTIuMTYzLTQuNTEtNC43MTgtNC43MThDMzYuNTE1IDMuMjc3IDMxLjM2NCAzIDI0IDNzLTEyLjUxNS4yNzctMTUuNzQzLjUzOWMtMi41NTUuMjA4LTQuNTEgMi4xNjMtNC43MTggNC43MThDMy4yNzcgMTEuNDg1IDMgMTYuNjM2IDMgMjRzLjI3NyAxMi41MTUuNTM5IDE1Ljc0M1oiLz48cGF0aCBzdHJva2U9IiMyODU5YzUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTMuNSAxMy41aDQxTTEwIDguNWgybTYgMGgyIi8+PC9nPjwvc3ZnPg=="
+          alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">User interface design</h3>
+        <p class="font-bold mt-1 text-l">
+
+          Web UI design<br>
+          Flexible design<br>
+          Great interactions.<br>
+
+        </p>
+      </div>
+      <div class="bg-blue-700 text-white  p-8 mt-4 rounded-xl h-70 hover:bg-black">
+        <img class=" w-15 "
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjEuNSI+PHBhdGggZmlsbD0iI2Q3ZTBmZiIgZD0iTTIxIDJIM3YyMGgxOHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEgMkgzdjkuNTYzaDE4ek04LjM4MyAxNS42ODhMMyAxOS45NDRWMjJoMTQuMzQ0eiIvPjxwYXRoIHN0cm9rZT0iIzQxNDdkNSIgZD0iTTIxIDJIM3YyMGgxOHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTYuMzQzIDEzLjg0M2ExLjY1NyAxLjY1NyAwIDEgMSAwIDMuMzE0YTEuNjU3IDEuNjU3IDAgMCAxIDAtMy4zMTQiLz48cGF0aCBzdHJva2U9IiM0MTQ3ZDUiIGQ9Ik0xNi4zNDMgMTMuODQzYTEuNjU3IDEuNjU3IDAgMSAxIDAgMy4zMTRhMS42NTcgMS42NTcgMCAwIDEgMC0zLjMxNFpNMyAxOS45NDRsNS4zODMtNC4yNTZMMTcuMzQzIDIyTTEyLjI2OSA1aC02LjI3TTE4IDguMzQ0SDZtMTUgMy4yMTlIMyIvPjwvZz48L3N2Zz4="
+          alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Website development</h3>
+        <p class="font-bold mt-1 text-l">
+
+          Inspired web solutions<br>
+          Modern responsive websites<br>
+          responsive frontend<br>
+
+        </p>
+      </div>
+      <div class="bg-blue-700 text-white p-8 mt-4 rounded-xl h-70 hover:bg-black">
+        <img class=" w-15 "
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQ0OCA1MTIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMjQgMjU2YzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4UzI5NC43IDAgMjI0IDBTOTYgNTcuMyA5NiAxMjhzNTcuMyAxMjggMTI4IDEyOG04OS42IDMyaC0xNi43Yy0yMi4yIDEwLjItNDYuOSAxNi03Mi45IDE2cy01MC42LTUuOC03Mi45LTE2aC0xNi43QzYwLjIgMjg4IDAgMzQ4LjIgMCA0MjIuNFY0NjRjMCAyNi41IDIxLjUgNDggNDggNDhoMzUyYzI2LjUgMCA0OC0yMS41IDQ4LTQ4di00MS42YzAtNzQuMi02MC4yLTEzNC40LTEzNC40LTEzNC40Ii8+PC9zdmc+"
+          alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">User experience</h3>
+        <p class="font-bold mt-1 text-l">
+
+          Easy to use <br>
+          User research <br>
+          Usability evaluation<br>
+
+        </p>
+      </div>
+      <div class="bg-blue-700 text-white  p-8 mt-4 rounded-xl  h-70 hover:bg-black">
+        <img class=" w-15 "
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSIjZDdlMGZmIiBkPSJNMTIuNSAxMi41YTEgMSAwIDAgMS0xIDFoLTlhMSAxIDAgMCAxLTEtMXYtMTFhMSAxIDAgMCAxIDEtMUg5TDEyLjUgNHoiLz48cGF0aCBzdHJva2U9IiM0MTQ3ZDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTEyLjUgMTIuNWExIDEgMCAwIDEtMSAxaC05YTEgMSAwIDAgMS0xLTF2LTExYTEgMSAwIDAgMSAxLTFIOUwxMi41IDR6IiBzdHJva2Utd2lkdGg9IjEiLz48cGF0aCBzdHJva2U9IiM0MTQ3ZDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0ibTUuNSAxMC41bC0yLTJsMi0ybTMgNGwyLTJsLTItMiIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9nPjwvc3ZnPg=="
+          alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Lightweight code</h3>
+        <p class="font-bold mt-1 text-l">
+
+          Fast app with less code<br>
+          Easy to manage<br>
+          Creativity simplified<br>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bg-blue-400 mt-20 mb-5  p-10 "
+    style="background-image: url('./public/undraw_building-a-website_1wrp.svg') ; background-size: contain;background-position:top; background-repeat: no-repeat;">
+    <h1 class="text-4xl font-extrabold text-white flex items-center justify-center">Website building process</h1>
+    <p class="text-xl font-bold text-white flex items-center justify-center">Getting quality work with CoderAxis is a
+      hassle-free experience from start to finish.</p>
+    <div class=" md:pb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5  gap-4 rounded ">
+      <div class="bg-white text-black p-8 mt-4 rounded-xl flex flex-col items-center ">
+        <img class="w-15 bg-blue-300 rounded " src="public/image1.png" alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Get Ideas</h3>
+        <p class=" mt-1 text-l">
+          Purpose, Main Goals, and Target Audience
+        </p>
+      </div>
+      <div class="bg-white text-black p-8 mt-4 rounded-xl flex flex-col items-center">
+        <img class="w-15 bg-blue-300 rounded " src="public/image2.png" alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Discussion</h3>
+        <p class=" mt-1 text-l">
+          Sitemap and Wireframe Creation
+        </p>
+      </div>
+      <div class="bg-white text-black p-8 mt-4 rounded-xl flex flex-col items-center">
+        <img class="w-15 bg-blue-300 rounded " src="public/image3.png" alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Design</h3>
+        <p class=" mt-1 text-l">
+          Building user interface and prototype design
+        </p>
+      </div>
+      <div class="bg-white text-black p-8 mt-4 rounded-xl flex flex-col items-center">
+        <img class="w-15 bg-blue-300 rounded " src="public/image4.png" alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Development</h3>
+        <p class="mt-1 text-l">
+          Programming code for custom requirements
+        </p>
+      </div>
+      <div class="bg-white text-black p-8 mt-4 rounded-xl flex flex-col items-center">
+        <img class="w-15 bg-blue-300 rounded " src="public/image.png" alt="">
+        <h3 class="mt-3 text-2xl font-extrabold">Launch</h3>
+        <p class="mt-1 text-l">
+          Finalizing testing and make website online
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="md:flex bg-black p-10 gap-5 items-center justify-center mt-18 ">
+    <div>
+      <img class="w-300 h-120 md:h-140 rounded-2xl" src="public/Mah in suit.jpg" alt="">
+    </div>
+    <div>
+      <h1 class="text-4xl font-extrabold text-white flex items-center justify-center mt-10">About Me</h1>
+      <p class="text-xl font-bold text-white flex items-center justify-center mt-5">I am a frontend developer with a
+        passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various
+        frontend frameworks. I love to learn new technologies and improve my skills.</p>
+      <button
+        class="bg-blue-600 border-4 border-blue-300 text-white px-6 py-2 rounded shadow-md hover:shadow-xl mt-4 transition hover:box-shadow-lg shadow-blue-500 duration-300 hover:font-extrabold hover:px-7">
+        <a href="/About.html">About Me</a>
+      </button>
+    </div>
+  </div>
+  <div class="bg-sky-200 rounded-3xl md:flex  w-[80%] mx-auto mt-20 mb-10">
+    <img class="w-100" src="public/contact1.svg" alt="">
+    <div class="pt-8">
+      <h1 class="text-4xl font-bold text-white p-5 md:p-0 ">Getting in touch is easy!</h1>
+      <p class="text-xl  font-bold text-white p-5 md:pt-5"> Describe you project and let's build your beautiful
+        responsive website.</p>
+      <button
+        class="bg-blue-600 border-4 m-5 border-blue-300 text-white px-6 py-2 rounded shadow-md hover:shadow-xl mt-4 transition hover:box-shadow-lg shadow-blue-500 duration-500 hover:font-extrabold hover:px-7">Contact
+        ME</button>
+    </div>
+    <img class="w-90 p-5" src="public/mail.svg" alt="">
+  </div>
+  <footer>
+    <div class="bg-gray-800 text-white p-5 text-center">
+      <p class="text-sm">© 2025 RM Studio. All rights reserved.</p>
+      <p class="text-sm">Designed by Mahesh</p>
+      <div class="flex justify-center gap-4 mt-2">
+        <a target="_blank" href="https://www.linkedin.com/in/m-mahesh060225/" class="text-blue-400 hover:underline"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxnIGZpbGw9Im5vbmUiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjZmZmIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0iIzBhNjZjMiIgcng9IjYwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE4NC43MTUgMjE3LjY4NWgyOS4yN2E0IDQgMCAwIDAgNC0zLjk5OWwuMDE1LTYxLjg0MmMwLTMyLjMyMy02Ljk2NS01Ny4xNjgtNDQuNzM4LTU3LjE2OGMtMTQuMzU5LS41MzQtMjcuOSA2Ljg2OC0zNS4yMDcgMTkuMjI4YS4zMi4zMiAwIDAgMS0uNTk1LS4xNjFWMTAxLjY2YTQgNCAwIDAgMC00LTRoLTI3Ljc3N2E0IDQgMCAwIDAtNCA0djExMi4wMmE0IDQgMCAwIDAgNCA0aDI5LjI2OGE0IDQgMCAwIDAgNC00di01NS4zNzNjMC0xNS42NTcgMi45Ny0zMC44MiAyMi4zODEtMzAuODJjMTkuMTM1IDAgMTkuMzgzIDE3LjkxNiAxOS4zODMgMzEuODM0djU0LjM2NGE0IDQgMCAwIDAgNCA0TTM4IDU5LjYyOGMwIDExLjg2NCA5Ljc2NyAyMS42MjYgMjEuNjMyIDIxLjYyNmMxMS44NjItLjAwMSAyMS42MjMtOS43NjkgMjEuNjIzLTIxLjYzMUM4MS4yNTMgNDcuNzYxIDcxLjQ5MSAzOCA1OS42MjggMzhDNDcuNzYyIDM4IDM4IDQ3Ljc2MyAzOCA1OS42MjdtNi45NTkgMTU4LjA1OGgyOS4zMDdhNCA0IDAgMCAwIDQtNFYxMDEuNjZhNCA0IDAgMCAwLTQtNEg0NC45NTlhNCA0IDAgMCAwLTQgNHYxMTIuMDI1YTQgNCAwIDAgMCA0IDQiLz48L2c+PC9zdmc+"
+            alt="linkedin"></a>
+        <a target="_blank" href="https://github.com/mahesh-metre" class="text-blue-400 hover:underline">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxnIGZpbGw9Im5vbmUiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjZjRmMmVkIiByeD0iNjAiLz48cGF0aCBmaWxsPSIjMTYxNjE0IiBkPSJNMTI4LjAwMSAzMEM3Mi43NzkgMzAgMjggNzQuNzcgMjggMTMwLjAwMWMwIDQ0LjE4MyAyOC42NTMgODEuNjY3IDY4LjM4NyA5NC44OWM0Ljk5Ny45MjYgNi44MzItMi4xNjkgNi44MzItNC44MWMwLTIuMzg1LS4wOTMtMTAuMjYyLS4xMzYtMTguNjE4Yy0yNy44MiA2LjA0OS0zMy42OS0xMS43OTktMzMuNjktMTEuNzk5Yy00LjU1LTExLjU1OS0xMS4xMDQtMTQuNjMyLTExLjEwNC0xNC42MzJjLTkuMDczLTYuMjA3LjY4NC02LjA3OS42ODQtNi4wNzljMTAuMDQyLjcwNSAxNS4zMyAxMC4zMDUgMTUuMzMgMTAuMzA1YzguOTE5IDE1LjI4OCAyMy4zOTQgMTAuODY4IDI5LjEgOC4zMTNjLjg5OC02LjQ2NCAzLjQ4OS0xMC44NzUgNi4zNDktMTMuMzcyYy0yMi4yMTEtMi41MjktNDUuNTYtMTEuMTA0LTQ1LjU2LTQ5LjQyMWMwLTEwLjkxOCAzLjkwNi0xOS44MzkgMTAuMzAzLTI2Ljg0MmMtMS4wMzktMi41MTktNC40NjItMTIuNjkuOTY4LTI2LjQ2NGMwIDAgOC4zOTgtMi42ODcgMjcuNTA4IDEwLjI1YzcuOTc3LTIuMjE1IDE2LjUzMS0zLjMyNiAyNS4wMy0zLjM2NGM4LjQ5OC4wMzggMTcuMDYgMS4xNDkgMjUuMDUxIDMuMzY1YzE5LjA4Ny0xMi45MzkgMjcuNDczLTEwLjI1IDI3LjQ3My0xMC4yNWM1LjQ0MyAxMy43NzMgMi4wMTkgMjMuOTQ1Ljk4IDI2LjQ2M2M2LjQxMiA3LjAwMyAxMC4yOTIgMTUuOTI0IDEwLjI5MiAyNi44NDJjMCAzOC40MDktMjMuMzk0IDQ2Ljg2Ni00NS42NjIgNDkuMzQxYzMuNTg3IDMuMTA0IDYuNzgzIDkuMTg5IDYuNzgzIDE4LjUxOWMwIDEzLjM4LS4xMTYgMjQuMTQ5LS4xMTYgMjcuNDQzYzAgMi42NjEgMS44IDUuNzc5IDYuODY5IDQuNzk3QzE5OS4zODMgMjExLjY0IDIyOCAxNzQuMTY5IDIyOCAxMzAuMDAxQzIyOCA3NC43NzEgMTgzLjIyNyAzMCAxMjguMDAxIDMwTTY1LjQ1NCAxNzIuNDUzYy0uMjIuNDk3LTEuMDAyLjY0Ni0xLjcxNC4zMDVjLS43MjYtLjMyNi0xLjEzMy0xLjAwNC0uODk4LTEuNTAyYy4yMTUtLjUxMi45OTktLjY1NCAxLjcyMi0uMzExYy43MjcuMzI2IDEuMTQxIDEuMDEuODkgMS41MDhtNC45MTkgNC4zODljLS40NzcuNDQzLTEuNDEuMjM3LTIuMDQyLS40NjJjLS42NTQtLjY5Ny0uNzc3LTEuNjI5LS4yOTMtMi4wNzhjLjQ5MS0uNDQyIDEuMzk2LS4yMzUgMi4wNTEuNDYyYy42NTQuNzA2Ljc4MiAxLjYzMS4yODQgMi4wNzhtMy4zNzQgNS42MTZjLS42MTMuNDI2LTEuNjE1LjAyNy0yLjIzNC0uODYzYy0uNjEzLS44ODktLjYxMy0xLjk1NS4wMTMtMi4zODNjLjYyMS0uNDI3IDEuNjA4LS4wNDMgMi4yMzYuODRjLjYxMS45MDQuNjExIDEuOTcxLS4wMTUgMi40MDZtNS43MDcgNi41MDRjLS41NDguNjA0LTEuNzE1LjQ0Mi0yLjU3LS4zODNjLS44NzQtLjgwNi0xLjExOC0xLjk1LS41NjgtMi41NTVjLjU1NS0uNjA2IDEuNzI5LS40MzUgMi41OS4zODNjLjg2OC44MDQgMS4xMzMgMS45NTcuNTQ4IDIuNTU1bTcuMzc2IDIuMTk1Yy0uMjQyLjc4NC0xLjM2NiAxLjE0LTIuNDk5LjgwN2MtMS4xMy0uMzQzLTEuODcxLTEuMjYtMS42NDItMi4wNTJjLjIzNS0uNzg4IDEuMzY0LTEuMTU5IDIuNTA1LS44MDNjMS4xMy4zNDEgMS44NzEgMS4yNTIgMS42MzYgMi4wNDhtOC4zOTQuOTMyYy4wMjguODI0LS45MzIgMS41MDgtMi4xMjEgMS41MjNjLTEuMTk2LjAyNy0yLjE2My0uNjQxLTIuMTc2LTEuNDUyYzAtLjgzMy45MzktMS41MSAyLjEzNC0xLjUzYzEuMTktLjAyMyAyLjE2My42MzkgMi4xNjMgMS40NTltOC4yNDYtLjMxNmMuMTQzLjgwNC0uNjgzIDEuNjMxLTEuODY0IDEuODUxYy0xLjE2MS4yMTItMi4yMzYtLjI4NS0yLjM4My0xLjA4M2MtLjE0NC0uODI1LjY5Ny0xLjY1MSAxLjg1Ni0xLjg2NWMxLjE4My0uMjA1IDIuMjQxLjI3OSAyLjM5MSAxLjA5NyIvPjwvZz48L3N2Zz4="
+            alt="">
+        </a>
+        <a target="_blank" href="https://discord.com/channels/@me" class="text-blue-400 hover:underline">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxnIGZpbGw9Im5vbmUiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjNTg2NWYyIiByeD0iNjAiLz48ZyBjbGlwLXBhdGg9InVybCgjc2tpbGxJY29uc0Rpc2NvcmQwKSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5Ny4zMDggNjQuNzk3YTE2NSAxNjUgMCAwIDAtNDAuNzA5LTEyLjYyN2EuNjIuNjIgMCAwIDAtLjY1NC4zMWMtMS43NTggMy4xMjYtMy43MDYgNy4yMDYtNS4wNjkgMTAuNDEyYy0xNS4zNzMtMi4zMDItMzAuNjY2LTIuMzAyLTQ1LjcyMyAwYy0xLjM2NC0zLjI3OC0zLjM4Mi03LjI4Ni01LjE0OC0xMC40MTJhLjY0LjY0IDAgMCAwLS42NTUtLjMxYTE2NC41IDE2NC41IDAgMCAwLTQwLjcwOSAxMi42MjdhLjYuNiAwIDAgMC0uMjY4LjIzYy0yNS45MjggMzguNzM2LTMzLjAzIDc2LjUyLTI5LjU0NiAxMTMuODM2YS43LjcgMCAwIDAgLjI2LjQ2OGMxNy4xMDYgMTIuNTYzIDMzLjY3NyAyMC4xOSA0OS45NCAyNS4yNDVhLjY1LjY1IDAgMCAwIC43MDItLjIzYzMuODQ3LTUuMjU0IDcuMjc2LTEwLjc5MyAxMC4yMTctMTYuNjE4YS42MzMuNjMzIDAgMCAwLS4zNDctLjg4MWMtNS40NC0yLjA2NC0xMC42MTktNC41NzktMTUuNjAxLTcuNDM2YS42NDIuNjQyIDAgMCAxLS4wNjMtMS4wNjRhODYgODYgMCAwIDAgMy4wOTgtMi40MjhhLjYyLjYyIDAgMCAxIC42NDYtLjA4OGMzMi43MzIgMTQuOTQ0IDY4LjE2NyAxNC45NDQgMTAwLjUxMiAwYS42Mi42MiAwIDAgMSAuNjU1LjA4YTgwIDgwIDAgMCAwIDMuMTA2IDIuNDM2YS42NDIuNjQyIDAgMCAxLS4wNTUgMS4wNjRhMTAyLjYgMTAyLjYgMCAwIDEtMTUuNjA5IDcuNDI4YS42NC42NCAwIDAgMC0uMzM5Ljg4OWExMzMgMTMzIDAgMCAwIDEwLjIwOCAxNi42MWEuNjQuNjQgMCAwIDAgLjcwMi4yMzhjMTYuMzQyLTUuMDU1IDMyLjkxMy0xMi42ODIgNTAuMDItMjUuMjQ1YS42NS42NSAwIDAgMCAuMjYtLjQ2YzQuMTctNDMuMTQxLTYuOTg1LTgwLjYxNi0yOS41NzEtMTEzLjgzNmEuNS41IDAgMCAwLS4yNi0uMjM4TTk0LjgzNCAxNTYuMTQyYy05Ljg1NSAwLTE3Ljk3NS05LjA0Ny0xNy45NzUtMjAuMTU4czcuOTYzLTIwLjE1OCAxNy45NzUtMjAuMTU4YzEwLjA5IDAgMTguMTMxIDkuMTI3IDE3Ljk3MyAyMC4xNThjMCAxMS4xMTEtNy45NjIgMjAuMTU4LTE3Ljk3MyAyMC4xNThtNjYuNDU2IDBjLTkuODU1IDAtMTcuOTc0LTkuMDQ3LTE3Ljk3NC0yMC4xNThzNy45NjItMjAuMTU4IDE3Ljk3NC0yMC4xNThjMTAuMDkgMCAxOC4xMzEgOS4xMjcgMTcuOTc0IDIwLjE1OGMwIDExLjExMS03Ljg4NCAyMC4xNTgtMTcuOTc0IDIwLjE1OCIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9InNraWxsSWNvbnNEaXNjb3JkMCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4IDUxaDIwMHYxNTQuOTNIMjh6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
